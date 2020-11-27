@@ -43,7 +43,7 @@ jobs:
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          server: ftp://39.102.60.28
+          server: 39.102.60.28
           username: root # FTP用户名
           password: fanlizhi.123 # FTP密码
           port: 8081
