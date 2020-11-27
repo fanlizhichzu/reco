@@ -3,7 +3,7 @@ name: CI/CD # 此工作流程（workflow）的名字
 jobs:
   FTP-Deploy-Action:
     name: CI&CD # 此任务（job）的名字
-    runs-on: centos-latest # 运行环境
+    runs-on: ubuntu-latest # 运行环境
     steps:
       - uses: actions/checkout@master # 切换分支到master
         with:
