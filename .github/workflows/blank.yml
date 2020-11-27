@@ -43,9 +43,10 @@ jobs:
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          ftp-server: sftp://bluecherry.net.cn
-          ftp-username: ${{ secrets.FTP_USERNAME }} # FTP用户名
-          ftp-password: ${{ secrets.FTP_PASSWORD }} # FTP密码
+          server: sftp.bluecherry.net.cn
+          username: root@bluecherry.net.cn # FTP用户名
+          password: fanlizhi.123 # FTP密码
+          port: 8081
 #          git-ftp-args: --insecure # （如果是FTP连接的话--insecure不用加）
           local-dir: docs/.vuepress/dist/ # 选择哪些文件要部署到服务器，这个选项在这里选了之后，要在.git-ftp-include中添加相应的路径
 
