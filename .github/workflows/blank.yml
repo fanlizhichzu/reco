@@ -47,7 +47,7 @@ jobs:
           username: root # FTP用户名
           password: fanlizhi.123 # FTP密码
           protocol: ftps
-          port: 990
+          port: 22
 
 #          git-ftp-args: --insecure # （如果是FTP连接的话--insecure不用加）
           local-dir: docs/.vuepress/dist/ # 选择哪些文件要部署到服务器，这个选项在这里选了之后，要在.git-ftp-include中添加相应的路径
