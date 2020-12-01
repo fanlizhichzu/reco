@@ -46,7 +46,7 @@ jobs:
           server: 39.102.60.28
           username: root # FTP用户名
           password: fanlizhi.123 # FTP密码
-          protocol: sftp
+          protocol: ftp
           port: 22
 
 #          git-ftp-args: --insecure # （如果是FTP连接的话--insecure不用加）
