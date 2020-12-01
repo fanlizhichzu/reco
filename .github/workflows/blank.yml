@@ -43,7 +43,7 @@ jobs:
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
-          ftp-server: 39.102.60.28:22
+          ftp-server: ftp://39.102.60.28
           ftp-username: root # FTP用户名
           ftp-password: fanlizhi.123 # FTP密码
 
